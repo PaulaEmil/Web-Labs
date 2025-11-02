@@ -1,0 +1,15 @@
+.box{
+    text-align: center
+}
+.under{
+    display: block;
+    margin:5px;
+    margin-left: 700px;
+}
+.projects{
+    display: inline-block;
+    width:100px;
+    height:100px;
+    margin:10px;
+
+}
