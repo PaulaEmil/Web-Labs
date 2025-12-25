@@ -1,5 +1,5 @@
 const display = document.getElementById('display');
-
+const clrbutton = document.queryselector('#unique');
 function appendChar(char) {
   display.value += char;
 }
@@ -19,3 +19,4 @@ function calculate() {
     display.value = 'Error';
   }
 }
+clrbutton.addEventListener('click', clearDisplay);
